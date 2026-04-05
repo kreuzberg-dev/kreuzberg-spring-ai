@@ -2,6 +2,7 @@ package dev.kreuzberg.springai;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import dev.kreuzberg.BoundingBox;
 import dev.kreuzberg.Chunk;
 import dev.kreuzberg.ChunkMetadata;
@@ -52,7 +53,7 @@ import org.springframework.core.io.Resource;
  */
 public final class KreuzbergDocumentReader implements DocumentReader {
 
-	private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
+	private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().registerModule(new Jdk8Module());
 
 	private final Resource resource;
 	private final String mimeType;
