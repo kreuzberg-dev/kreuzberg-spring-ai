@@ -6,9 +6,10 @@ package dev.kreuzberg;
  */
 public final class ExtractionResultFactory {
 
-  private ExtractionResultFactory() {}
+	private ExtractionResultFactory() {
+	}
 
-  public static ExtractionResult fromJson(String json) throws KreuzbergException {
-    return ResultParser.fromJson(json);
-  }
+	public static ExtractionResult fromJson(String json) throws KreuzbergException {
+		return ResultParser.fromJson(json);
+	}
 }

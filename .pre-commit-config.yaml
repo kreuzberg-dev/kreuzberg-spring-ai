@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -8,3 +8,20 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
         args: ['--maxkb=500']
+      - id: detect-private-key
+      - id: check-case-conflict
+
+  - repo: local
+    hooks:
+      - id: spotless-check
+        name: spotless (java formatting)
+        entry: mvn spotless:check --batch-mode -q
+        language: system
+        pass_filenames: false
+        files: \.java$
+      - id: checkstyle
+        name: checkstyle (java style)
+        entry: mvn checkstyle:check --batch-mode -q
+        language: system
+        pass_filenames: false
+        files: \.java$
