@@ -1,6 +1,20 @@
 # Kreuzberg Spring AI DocumentReader
 
-A Spring AI `DocumentReader` integration for the Kreuzberg document extraction engine. Extract text, metadata, tables, and structural elements from 100+ document formats with native OCR support in 80+ languages.
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 20px 0;">
+  <a href="https://central.sonatype.com/artifact/dev.kreuzberg/kreuzberg-spring-ai-document-reader"><img src="https://img.shields.io/maven-central/v/dev.kreuzberg/kreuzberg-spring-ai-document-reader?label=Maven%20Central&color=007ec6" alt="Maven Central"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+  <a href="https://docs.kreuzberg.dev"><img src="https://img.shields.io/badge/docs-kreuzberg.dev-blue" alt="Docs"></a>
+</div>
+
+<img width="3384" height="573" alt="Kreuzberg Banner" src="https://github.com/user-attachments/assets/1b6c6ad7-3b6d-4171-b1c9-f2026cc9deb8" />
+
+<div align="center" style="margin-top: 20px;">
+  <a href="https://discord.gg/xt9WY3GnKR">
+    <img height="22" src="https://img.shields.io/badge/Discord-Join%20our%20community-7289da?logo=discord&logoColor=white" alt="Discord">
+  </a>
+</div>
+
+A Spring AI `DocumentReader` integration for the [Kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) document extraction engine. Extract text, metadata, tables, and structural elements from 100+ document formats with native OCR support in 80+ languages.
 
 ## Overview
 

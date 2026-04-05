@@ -13,6 +13,11 @@
     <description>Spring AI DocumentReader integration for Kreuzberg document extraction engine</description>
     <url>https://github.com/kreuzberg-dev/kreuzberg-spring-ai</url>
 
+    <organization>
+        <name>Kreuzberg</name>
+        <url>https://kreuzberg.dev</url>
+    </organization>
+
     <licenses>
         <license>
             <name>MIT License</name>
@@ -29,9 +34,16 @@
 
     <developers>
         <developer>
-            <name>Kreuzberg Team</name>
+            <name>Na'aman Hirschfeld</name>
+            <email>naaman@kreuzberg.dev</email>
             <organization>Kreuzberg</organization>
-            <organizationUrl>https://github.com/kreuzberg-dev</organizationUrl>
+            <organizationUrl>https://kreuzberg.dev</organizationUrl>
+        </developer>
+        <developer>
+            <name>Kreuzberg Contributors</name>
+            <email>contact@kreuzberg.dev</email>
+            <organization>Kreuzberg</organization>
+            <organizationUrl>https://kreuzberg.dev</organizationUrl>
         </developer>
     </developers>
 
