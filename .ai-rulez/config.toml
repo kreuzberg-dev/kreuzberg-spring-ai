@@ -6,7 +6,7 @@ name = 'kreuzberg-spring-ai'
 description = 'Spring AI DocumentReader integration for kreuzberg'
 gitignore = true
 presets = ['claude', 'codex', 'copilot', 'cursor', 'antigravity']
-builtins = ['java', 'security', 'git-workflow', 'code-quality', 'testing', 'token-efficiency', 'default-commands']
+builtins = ['java', 'default-commands']
 
 [[includes]]
 name = 'kreuzberg-core'
