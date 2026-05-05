@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/Goldziher/ai-rulez
-    rev: v3.14.2
+    rev: v4.1.6
     hooks:
       - id: ai-rulez-generate
 
@@ -24,9 +24,7 @@ repos:
         language: system
         pass_filenames: false
         files: \.java$
+  - repo: https://github.com/kreuzberg-dev/pre-commit-hooks
+    rev: v1.0.0
+    hooks:
       - id: checkstyle
-        name: checkstyle (java style)
-        entry: mvn checkstyle:check --batch-mode -q
-        language: system
-        pass_filenames: false
-        files: \.java$
